@@ -5,6 +5,6 @@ devran.o: devran.c
 	gcc -c devran.c
 
 clean:
-	rm -f *.o *~ devran
+	rm -f *.o *~ devran file
 run: all
 	./devran
