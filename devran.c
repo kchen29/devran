@@ -15,6 +15,7 @@ int ranNum(){
     printf("Error number: %d\n", errno);
     printf("Error message: %s\n", strerror(errno));
   }
+  close(fd);
   free(ip);
   return val;
 }
